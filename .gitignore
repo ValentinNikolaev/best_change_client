@@ -1,0 +1,6 @@
+.idea
+tmp/
+vendor
+myIssue.md
+e-currency-codes
+tests/Fixtures/testZip
