@@ -9,8 +9,8 @@ use BestChange\BestChange;
 
 class BestChangeTest extends TestCase
 {
-    private $cachePath = __DIR__ . '/Fixtures/info.zip';
-    private $cacheECurrencyCodes = __DIR__ . '/../src/e-currency-codes';
+    private string $cachePath = __DIR__ . '/Fixtures/info.zip';
+    private string $cacheECurrencyCodes = __DIR__ . '/../src/e-currency-codes';
 
     /**
      * @throws Exception

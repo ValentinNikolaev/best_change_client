@@ -18,7 +18,7 @@ class Currencies
             $row = iconv('CP1251', 'UTF-8', $row);
             $currencyData = explode(';', $row);
             $this->currencyData[$currencyData[0]] = [
-                'id' => (int)$currencyData[0],
+                'id' => (int) $currencyData[0],
                 'name' => $currencyData[2],
             ];
         }
